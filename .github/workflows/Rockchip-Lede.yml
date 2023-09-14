@@ -1,7 +1,7 @@
 #CI项目名
 name: Rockchip-Lede
 
-on: workflow_dispatch
+on: 0 0 * * 0
 
 #CI权限
 permissions: write-all
