@@ -1,7 +1,9 @@
 #CI项目名
 name: Rockchip-Lede
 
-on: 0 0 * * 0
+on: 
+  schedule:
+    - cron: 0 0 * * 1
 
 #CI权限
 permissions: write-all
